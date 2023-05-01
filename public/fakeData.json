@@ -1,0 +1,57 @@
+[
+    {
+    "id": "644fee8e08afe93dddc261b0",
+    "profile": {
+      "authorName": "Coffey Mclaughlin",
+      "authorPic": "https://rb.gy/02my6",
+      "about": "Adipisicing ipsum esse commodo tempor duis. Enim ipsum exercitation ullamco in magna dolore esse id voluptate."
+    },
+    "createdAt": "2023-04-15",
+    "coverPic": "https://rb.gy/33emn",
+    "duration": "05",
+    "title": "10 Tips for Writing Clean and Efficient Code",
+    "tag": "#programming #beginners"
+    
+
+  },
+  {
+    "id": "644fee8eb1d7d842e826bca2",
+    "profile": {
+      "authorName": "Ellen Hicks",
+      "authorPic": "https://rb.gy/x18xc",
+      "about": "Nisi proident fugiat dolore aliqua est ea. Mollit labore mollit deserunt proident deserunt amet exercitation."
+    },
+    "createdAt": "2023-04-17",
+    "coverPic": "https://rb.gy/yaca6",
+    "duration": "10",
+    "title": "Why Learning Data Structures and Algorithms is Essential for Every Programmer",
+    "tag": "#structure #algorithm"
+  },
+  {
+    "id": "644fee8e6ca970cfcf4a9111",
+    "profile": {
+      "authorName": "Lindsay Ellison",
+      "authorPic": "https://rb.gy/4ld2e",
+      "about": "Est eu veniam ex deserunt incididunt laborum labore sit. In reprehenderit eu laboris aliquip."
+    },
+    "createdAt": "2023-03-21",
+    "coverPic": "https://rb.gy/rqglz",
+    "duration": "12",
+    "title": "Understanding Object-Oriented Programming Concepts",
+    "tag": "#object-oriented #programming #new"
+    
+  },
+  {
+    "id": "644fee8ece7e3dee2f258b43",
+    "profile": {
+      "authorName": "Vazquez Pearson",
+      "authorPic": "https://rb.gy/cj5ec",
+      "about": "Aliqua do elit pariatur ex cupidatat reprehenderit consequat incididunt veniam. Non mollit quis pariatur officia deserunt sit est veniam sint."
+    },
+    "createdAt": "2023-04-29",
+    "coverPic": "https://rb.gy/9gdq5",
+    "duration": "07",
+    "title": "How to Debug Your Code Like a Pro!",
+    "tag": "#debugging #professional"
+  }
+]
