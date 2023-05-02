@@ -9,8 +9,29 @@ nav {
     justify-content: space-between;
     border-bottom: 1px solid #11111126;
 }
-.logo {}
-.logo h1 {}
+.logo span:nth-child(1) {
+    display: inline-block;
+    transform: rotate(213deg) translate(0px, 4px);
+    font-size: 30px;
+    -webkit-text-stroke: 2px #111111;
+    color: transparent;
+    text-shadow: -1px -1px 0 #11111117,
+            1px -1px 0 #11111117,
+            -1px 1px 0 #11111117,
+            1px 1px 0 #11111117;
+}
+.logo span:nth-child(2) {
+    -webkit-text-stroke: 2px #6047EC;
+    color: transparent;
+    font-size: 30px;
+    text-shadow: -1px -1px 0 #6047EC1A,
+            1px -1px 0 #6047EC1A,
+            -1px 1px 0 #6047EC1A,
+            1px 1px 0 #6047EC1A;
+}
+.logo h1 {
+    counter-reset: #111111;
+}
 .menubar ul {
     display: flex;
     align-items: center;
@@ -33,3 +54,15 @@ nav {
     border: 1.5px solid white;
     box-shadow: 0 0 10px #867e7e;
 }
+
+
+/*
+RESPONSIVE------------------------>>> 
+ */
+
+ @media only screen and (min-width: 0px) and (max-width: 699px) {
+    
+    .hidden {
+        display: none !important
+    }
+ }

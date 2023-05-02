@@ -10,14 +10,14 @@ const Header = () => {
         <header>
             <nav>
                 <div className="logo">
-                    <h1>Knowledge Cafe</h1>
+                    <h1><span>K</span>nowledge <span>Cafe</span></h1>
                 </div>
                 <div className="menubar">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact us</a></li>
-                        <li><a href="">Premium <sup><FontAwesomeIcon icon={faPlus} /></sup></a></li>
+                        <li className='hidden'><a href="">Home</a></li>
+                        <li className='hidden'><a href="">About</a></li>
+                        <li className='hidden'><a href="">Contact us</a></li>
+                        <li className='hidden'><a href="">Premium <sup><FontAwesomeIcon icon={faPlus} /></sup></a></li>
                         <li><a href="">
                             <img src={ profile} alt="" />
                         </a></li>
