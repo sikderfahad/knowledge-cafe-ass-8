@@ -4,6 +4,12 @@
     height: 100vh;
     overflow-y: scroll;
 }
+
+.bookmark::-webkit-scrollbar {
+    width: 0px;
+}
+
+
 .read-duration {
     padding: 20px 0;
     background: #6047EC1A;

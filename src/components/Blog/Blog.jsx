@@ -6,6 +6,7 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 const Blog = (props) => {
     const { id, profile, createdAt, coverPic, duration, title, tag } = props.blog
     const addToBookmark = props.addToBookmark
+    const handledMarkBlog = props.handledMarkBlog
     return (
         <div className='blog'>
             <div className="cover">
@@ -34,7 +35,7 @@ const Blog = (props) => {
                     tag.map(item => <li>{ item}</li>)
                 }
             </ol>
-            <a href="#" className="mark">Mark as read</a>
+            <a onClick={() => handledMarkBlog(duration)} className="mark">Mark as read</a>
             
         </div>
     );

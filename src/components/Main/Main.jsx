@@ -8,6 +8,8 @@ const Main = () => {
 
     const [bookmarks, setBookmarks] = useState([])
 
+    const [duration, setDuration] = useState([])
+
     useEffect(() => {
         fetch('fakeData.json')
             .then(res => res.json())
@@ -20,8 +22,12 @@ const Main = () => {
         setBookmarks(newBookmarks)
         
     }
-    // console.log(bookmarks)
 
+    const handledMarkBlog = (time) => {
+        const newDuration = [...duration, parseInt(time)]
+        setDuration(newDuration)
+    }
+    // console.log(duration)
 
     return (
         <main>
@@ -32,10 +38,14 @@ const Main = () => {
                             blog={blog}
                             key={blog.id}
                             addToBookmark={addToBookmark}
+                            handledMarkBlog={handledMarkBlog}
                         ></Blog>)
                     }
                 </div>
-                <Bookmark bookmarks={bookmarks}></Bookmark>
+                <Bookmark
+                    bookmarks={bookmarks}
+                    duration={duration}
+                ></Bookmark>
             </section>
         </main>
     );
