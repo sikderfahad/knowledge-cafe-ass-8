@@ -1,0 +1,11 @@
+.bookmark-item {
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    margin-top: 16px;
+}
+.bookmark-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111111;
+}

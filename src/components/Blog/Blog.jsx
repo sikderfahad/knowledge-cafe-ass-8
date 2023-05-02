@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 
 const Blog = (props) => {
-    const {id, profile, createdAt, coverPic, duration, title, tag} = props.blog
+    const { id, profile, createdAt, coverPic, duration, title, tag } = props.blog
+    const addToBookmark = props.addToBookmark
     return (
         <div className='blog'>
             <div className="cover">
@@ -23,7 +24,7 @@ const Blog = (props) => {
                     </div>
                 </div>
                 <div className="duration">
-                    <p className='dark-2'>{duration } min read <button><FontAwesomeIcon icon={faBookmark} /></button></p>
+                    <p className='dark-2'>{duration } min read <button onClick={() => addToBookmark(props.blog)}><FontAwesomeIcon icon={faBookmark} /></button></p>
                 </div>
             </div>
 
