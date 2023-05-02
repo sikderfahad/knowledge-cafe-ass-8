@@ -10,7 +10,7 @@
     "coverPic": "https://rb.gy/33emn",
     "duration": "05",
     "title": "10 Tips for Writing Clean and Efficient Code",
-    "tag": "#programming #beginners"
+    "tag": ["#programming", "#beginners"]
     
 
   },
@@ -25,7 +25,7 @@
     "coverPic": "https://rb.gy/yaca6",
     "duration": "10",
     "title": "Why Learning Data Structures and Algorithms is Essential for Every Programmer",
-    "tag": "#structure #algorithm"
+    "tag": ["#structure", "#algorithm"]
   },
   {
     "id": "644fee8e6ca970cfcf4a9111",
@@ -38,7 +38,7 @@
     "coverPic": "https://rb.gy/rqglz",
     "duration": "12",
     "title": "Understanding Object-Oriented Programming Concepts",
-    "tag": "#object-oriented #programming #new"
+    "tag": ["#object-oriented", "#programming", "#new"]
     
   },
   {
@@ -49,9 +49,9 @@
       "about": "Aliqua do elit pariatur ex cupidatat reprehenderit consequat incididunt veniam. Non mollit quis pariatur officia deserunt sit est veniam sint."
     },
     "createdAt": "2023-04-29",
-    "coverPic": "https://rb.gy/9gdq5",
+    "coverPic": "https://rb.gy/g5tdt",
     "duration": "07",
     "title": "How to Debug Your Code Like a Pro!",
-    "tag": "#debugging #professional"
+    "tag": ["#debugging", "#professional"]
   }
 ]

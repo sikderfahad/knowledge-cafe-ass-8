@@ -47,3 +47,29 @@
 .status p {
     font-weight: 600;
 }
+.blog-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #111111;
+}
+.tag {
+    font-size: 20px;
+    font-weight: 500;
+    color: #11111199;
+    padding: 0 !important;
+}
+
+.tag li{
+    display: inline;
+    margin-right: 16px;
+}
+.mark {
+    font-size: 20px;
+    color: #6047EC;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.mark:hover {
+    text-decoration: underline;
+}
