@@ -1,12 +1,16 @@
 main {
-    display: grid;
-    grid-template-columns: 4fr 2fr;
     width: 90%;
     margin: auto;
 }
 .blog-container {
-    padding: 24px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+main section {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 1.5rem;
+    margin-top: 3rem;
+
 }

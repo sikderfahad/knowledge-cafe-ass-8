@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Main.css'
 import Blog from '../Blog/Blog';
+import Bookmark from '../Bookmark/Bookmark';
 
 const Main = () => {
     const [blogs, setBlogs] = useState([])
@@ -13,15 +14,17 @@ const Main = () => {
 
     return (
         <main>
-            <div className="blog-container">
-                {
-                    blogs.map(blog => <Blog
-                        blog={blog}
-                        key={blog.id}
-                    ></Blog>)
-                }
-            </div>
-            <div className="bookmark-box"></div>
+            <section>
+                <div className="blog-container">
+                    {
+                        blogs.map(blog => <Blog
+                            blog={blog}
+                            key={blog.id}
+                        ></Blog>)
+                    }
+                </div>
+                <Bookmark></Bookmark>
+            </section>
         </main>
     );
 };

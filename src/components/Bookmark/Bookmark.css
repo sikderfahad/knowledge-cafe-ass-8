@@ -1,0 +1,30 @@
+.bookmark {
+    position: sticky;
+    top: 10px;
+    height: 100vh;
+}
+.read-duration {
+    padding: 20px 0;
+    background: #6047EC1A;
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+}
+.read-duration h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #6047EC;
+}
+
+.bookmark-list {
+    background: #1111110D;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+.list-count {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111111;
+    margin: 0;
+}
