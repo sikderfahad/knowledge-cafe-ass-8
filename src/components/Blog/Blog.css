@@ -88,6 +88,7 @@ RESPONSIVE------------------------>>>
 
     .author-info {
         flex-direction: column;
+        align-items: start;
         gap: 10px;
     }
     .blog-title {

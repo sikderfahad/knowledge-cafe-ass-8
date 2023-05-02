@@ -47,6 +47,9 @@ nav {
     font-weight: 500;
     padding: 15px 10px;
 }
+.menubar ul li a:hover {
+    color: #6047EC;
+}
 .menubar ul li a img {
     width: 60px;
     height: 60px;

@@ -3,6 +3,7 @@ import './Main.css'
 import Blog from '../Blog/Blog';
 import Bookmark from '../Bookmark/Bookmark';
 import { Toast } from '../Toast/Toast';
+import QnA from '../QnA/QnA';
 
 const Main = () => {
     const [blogs, setBlogs] = useState([])
@@ -46,6 +47,7 @@ const Main = () => {
                             handledMarkBlog={handledMarkBlog}
                         ></Blog>)
                     }
+                    <QnA></QnA>
                 </div>
                 <Bookmark
                     bookmarks={bookmarks}

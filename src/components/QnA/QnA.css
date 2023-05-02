@@ -1,0 +1,10 @@
+.faq-container {}
+.faq-container h1 {
+    width: fit-content;
+    margin: auto;
+    border-bottom: 1.5px solid;
+}
+
+.faq-list {
+    padding: 0;
+}
