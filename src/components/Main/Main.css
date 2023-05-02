@@ -1,0 +1,12 @@
+main {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    width: 90%;
+    margin: auto;
+}
+.blog-container {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

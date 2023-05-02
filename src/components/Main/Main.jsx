@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Main.css'
+import Blog from '../Blog/Blog';
 
 const Main = () => {
     const [blogs, setBlogs] = useState([])
@@ -14,7 +15,10 @@ const Main = () => {
         <main>
             <div className="blog-container">
                 {
-                    blogs.map(blog => console.log(blog))
+                    blogs.map(blog => <Blog
+                        blog={blog}
+                        key={blog.id}
+                    ></Blog>)
                 }
             </div>
             <div className="bookmark-box"></div>
