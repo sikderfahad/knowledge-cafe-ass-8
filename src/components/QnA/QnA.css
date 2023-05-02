@@ -6,5 +6,26 @@
 }
 
 .faq-list {
-    padding: 0;
+    padding-left: 20px;
+    transition: 1s ease-in;
+}
+#btnLock, #btnLockOpen {
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #6047EC1A;
+    color: #6047EC;
+    border: 1px solid #6047EC;
+}
+.btnFaQ {
+    transition: .2s ease-in;
+}
+.btnFaQ:focus {
+    transform: rotate(360deg);
+}
+.btnFaQ:hover {
+    transform: scale(1.1);
+}
+.hidden {
+    display: none;
 }

@@ -1,12 +1,26 @@
 import React from 'react';
 import './QnA.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLock, faLockOpen } from '@fortawesome/free-solid-svg-icons';
+import { hidQnA, showQnA } from './HandledQnA';
 
 const QnA = () => {
+    
+
     return (
         <div className='faq-container'>
+
+            <button title='Click to hide FAQ' onClick={hidQnA} id='btnLock' className='btnFaQ'>
+                <FontAwesomeIcon icon={faLock}></FontAwesomeIcon>
+            </button>
+            <a href="#first-element">
+                <button title='Click to show FAQ' onClick={showQnA} id='btnLockOpen' className='btnFaQ hidden'>
+                    <FontAwesomeIcon icon={faLockOpen} />
+                </button>
+            </a>
             <h1>FAQ</h1>
             <ul className='faq-list'>
-                <li>
+                <li  id='first-element'>
                     <div>
                         <h2>Props vs state</h2>
                         <p>In the context of web development, "props" and "state" are terms that refer to two different ways of managing and passing data between components in a React application.</p>
