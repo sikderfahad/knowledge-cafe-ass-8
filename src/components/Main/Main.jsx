@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Main.css'
 import Blog from '../Blog/Blog';
 import Bookmark from '../Bookmark/Bookmark';
+import { Toast } from '../Toast/Toast';
 
 const Main = () => {
     const [blogs, setBlogs] = useState([])
@@ -19,6 +20,10 @@ const Main = () => {
    
     const addToBookmark = (blog) => {
         const newBookmarks = [...bookmarks, blog.title]
+        const exist = bookmarks.find(title => title === blog.title)
+        if (exist) {
+            Toast()
+        }
         setBookmarks(newBookmarks)
         
     }

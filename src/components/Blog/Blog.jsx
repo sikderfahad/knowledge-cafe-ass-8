@@ -2,11 +2,17 @@ import React from 'react';
 import './Blog.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookmark } from '@fortawesome/free-solid-svg-icons';
+import ToastBox from '../ToastBox/ToastBox';
+
+
+
 
 const Blog = (props) => {
     const { id, profile, createdAt, coverPic, duration, title, tag } = props.blog
     const addToBookmark = props.addToBookmark
     const handledMarkBlog = props.handledMarkBlog
+
+    
     return (
         <div className='blog'>
             <div className="cover">
@@ -36,6 +42,7 @@ const Blog = (props) => {
                 }
             </ol>
             <a onClick={() => handledMarkBlog(duration)} className="mark">Mark as read</a>
+            <ToastBox></ToastBox>
             
         </div>
     );
