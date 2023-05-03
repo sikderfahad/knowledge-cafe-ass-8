@@ -3,14 +3,16 @@ import './Blog.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 import ToastBox from '../ToastBox/ToastBox';
+import { calculateDateDifference, getDate } from '../DateCalculate/DateCalculate';
 
 
 
 
 const Blog = (props) => {
-    const { id, profile, createdAt, coverPic, duration, title, tag } = props.blog
+    const { profile, createdAt, coverPic, duration, title, tag } = props.blog
     const addToBookmark = props.addToBookmark
     const handledMarkBlog = props.handledMarkBlog
+    const preDate = new Date(createdAt)
 
     
     return (
@@ -26,7 +28,14 @@ const Blog = (props) => {
                     </div>
                     <div className="status">
                         <h3 className='dark-1'>{profile.authorName }</h3>
-                        <p className='dark-2'>Mar 14 (4 days ago)</p>
+                        <p className='dark-2'>
+                            {
+                                getDate(createdAt)
+                            } ({
+                                calculateDateDifference(preDate)
+                            } days ago)
+                            
+                        </p>
                         
                     </div>
                 </div>
